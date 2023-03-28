@@ -1,0 +1,15 @@
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/slotmachine_with_methods.csproj.AssemblyReference.cache
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/slotmachine_with_methods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/slotmachine_with_methods.AssemblyInfoInputs.cache
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/slotmachine_with_methods.AssemblyInfo.cs
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/slotmachine_with_methods.csproj.CoreCompileInputs.cache
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/bin/Debug/net7.0/slotmachine_with_methods
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/bin/Debug/net7.0/slotmachine_with_methods.deps.json
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/bin/Debug/net7.0/slotmachine_with_methods.runtimeconfig.json
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/bin/Debug/net7.0/slotmachine_with_methods.dll
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/bin/Debug/net7.0/slotmachine_with_methods.pdb
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/slotmachine_with_methods.dll
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/refint/slotmachine_with_methods.dll
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/slotmachine_with_methods.pdb
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/slotmachine_with_methods.genruntimeconfig.cache
+/Users/ildikochikan/Documents/GitHub/slotmachine_with_methods2/slotmachine_with_methods/obj/Debug/net7.0/ref/slotmachine_with_methods.dll

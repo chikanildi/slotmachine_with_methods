@@ -3,8 +3,10 @@
 class SlotMachine
 {
     const int STARTING_COINS = 1000;
-    const int MIN_BET = 1;
-    const int MAX_BET = 1000;
+    public const int MIN_BET = 1;
+    public const int MAX_BET = 1000;
+    static Random rand = new Random();
+    int[,] spin = new int[3, 3];
 
     static void Main()
     {
@@ -16,12 +18,12 @@ class SlotMachine
 
         while (true)
         {
-            int winnings = 0;
-            int betAmount = SlotMachineLogic.CheckBetAmount(coins, MIN_BET, MAX_BET);
+
+            int betAmount = SlotMachineUI.CheckBetAmount(coins, MIN_BET, MAX_BET);
 
             coins -= betAmount;
 
-            SlotMachineLogic.GenerateSpin(spin);
+            SlotMachineLogic.GenerateSpin(spin, rand);
 
             SlotMachineUI.DisplaySpin(spin);
 
@@ -29,7 +31,8 @@ class SlotMachine
 
             if (matches > 0)
             {
-                winnings = matches * betAmount;
+                int winnings = 0;
+                winnings = matches * 2 * betAmount;
                 coins += winnings;
                 SlotMachineUI.DisplayWinnings(matches, winnings);
             }

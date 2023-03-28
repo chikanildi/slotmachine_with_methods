@@ -2,10 +2,8 @@
 
 class SlotMachineLogic
 {
-    public static void GenerateSpin(int[,] spin)
+    public static void GenerateSpin(int[,] spin, Random rand)
     {
-        Random rand = new Random();
-
         for (int i = 0; i < spin.GetLength(0); i++)
         {
             for (int j = 0; j < spin.GetLength(1); j++)
@@ -49,27 +47,5 @@ class SlotMachineLogic
         }
 
         return matches;
-    }
-
-    public static int CheckBetAmount(int coins, int minBet, int maxBet)
-    {
-        while (true)
-        {
-            int betAmount = SlotMachineUI.GetBetAmount(minBet, maxBet);
-
-            if (betAmount < minBet || betAmount > maxBet)
-            {
-                SlotMachineUI.InvalidBetMessage();
-                continue;
-            }
-
-            if (coins < betAmount)
-            {
-                SlotMachineUI.NotEnoughCoinsMessage();
-                continue;
-            }
-
-            return betAmount;
-        }
     }
 }

@@ -71,4 +71,26 @@ class SlotMachineUI
         Console.WriteLine("\nSorry, you lost.");
         Console.ReadLine();
     }
+
+    public static int CheckBetAmount(int coins, int minBet, int maxBet)
+    {
+        while (true)
+        {
+            int betAmount = SlotMachineUI.GetBetAmount(minBet, maxBet);
+
+            if (betAmount < SlotMachine.MIN_BET || betAmount > SlotMachine.MAX_BET)
+            {
+                SlotMachineUI.InvalidBetMessage();
+                continue;
+            }
+
+            if (coins < betAmount)
+            {
+                SlotMachineUI.NotEnoughCoinsMessage();
+                continue;
+            }
+
+            return betAmount;
+        }
+    }
 }

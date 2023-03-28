@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "slotmachine_with_methods/1.0.0": {
+        "runtime": {
+          "slotmachine_with_methods.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "slotmachine_with_methods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
