@@ -8,9 +8,9 @@ class SlotMachineUI
         Console.WriteLine($"You have {coins} coins");
     }
 
-    public static int GetBetAmount(int minBet, int maxBet)
+    public static int GetBetAmount()
     {
-        Console.WriteLine($"How much would you like to bet? ({minBet}-{maxBet})");
+        Console.WriteLine($"How much would you like to bet? ({SlotMachine.MIN_BET}-{SlotMachine.MAX_BET})");
         Console.Write("Bet: ");
         int betAmount = int.Parse(Console.ReadLine());
         return betAmount;
@@ -72,11 +72,11 @@ class SlotMachineUI
         Console.ReadLine();
     }
 
-    public static int CheckBetAmount(int coins, int minBet, int maxBet)
+    public static int CheckBetAmount(int coins)
     {
         while (true)
         {
-            int betAmount = SlotMachineUI.GetBetAmount(minBet, maxBet);
+            int betAmount = SlotMachineUI.GetBetAmount();
 
             if (betAmount < SlotMachine.MIN_BET || betAmount > SlotMachine.MAX_BET)
             {

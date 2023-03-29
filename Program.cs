@@ -19,7 +19,7 @@ class SlotMachine
         while (true)
         {
 
-            int betAmount = SlotMachineUI.CheckBetAmount(coins, MIN_BET, MAX_BET);
+            int betAmount = SlotMachineUI.CheckBetAmount(coins);
 
             coins -= betAmount;
 
@@ -31,8 +31,7 @@ class SlotMachine
 
             if (matches > 0)
             {
-                int winnings = 0;
-                winnings = matches * 2 * betAmount;
+                int winnings = matches * 2 * betAmount;
                 coins += winnings;
                 SlotMachineUI.DisplayWinnings(matches, winnings);
             }
